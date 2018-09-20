@@ -1,0 +1,100 @@
+body{
+    background-color:black;
+
+}
+/*---------style h----------*/
+.adr{
+    color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    padding: 30px;
+}
+.form1{
+    align-items: center;
+    margin: 90px;
+}
+/*------display numer from right----*/
+.teal{
+    width: 300px;
+    height: 100px;
+    text-align: right;
+    border: 2px solid orange;
+    border-radius:20px; 
+    font-size: 3em;
+}
+/*-----------------style btn---------*/
+.numcl{
+    width: 70px;
+    height: 70px;
+    border-radius:50%; 
+    background-color: rgb(92, 89, 89);
+    margin-top: 10px;
+    border: none;
+    color: white;
+
+}
+
+.numcl:focus {
+    outline: none;
+}
+
+.asscl{ 
+    width: 70px;
+    height: 70px;
+    border-radius:50%; 
+    background-color:orangered;
+    border: none;
+    color: white;
+
+}
+.asscl:focus {
+    outline: none;
+
+}
+.zero{
+     width: 140px;
+    height: 70px;
+    border-radius:50%; 
+    background-color: rgb(92, 89, 89);
+    border: none;
+    color: white;
+
+}
+.zero:focus{
+    outline: none;
+}
+.numclc{
+    width: 210px;
+    height: 70px;
+    border-radius:30%; 
+    background-color: rgb(92, 89, 89);
+    margin-top: 10px;
+    border: none;
+    color: white;
+
+}
+.numclc:focus{
+    outline: none;
+}
+/*-------------btn hover---------*/
+#hov:hover{
+    background-color: red;
+    color:white;
+
+}
+#hov:active{
+    background-color: #3e8e41;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+    
+
+}
+/*------adr1----------*/
+.adr1{ color: orangered;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1em;
+}
+
+}
